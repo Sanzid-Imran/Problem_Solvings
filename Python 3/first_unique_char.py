@@ -11,6 +11,7 @@ for i in a :
 for j in a:
     if j in first_time and j not in duplicate:
         unique.append(j)
+        break
 
 
-print(unique[0])
+print(*unique)

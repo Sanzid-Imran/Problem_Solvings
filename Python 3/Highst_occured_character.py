@@ -5,8 +5,7 @@ def function (a):
     for i in a :
         if a.count(i)>j:
             j=a.count(i)
-        else:
-            continue
+
     for k in a :
         if a.count(k)==j:
             if k not in list:
