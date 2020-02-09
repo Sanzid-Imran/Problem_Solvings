@@ -1,3 +1,7 @@
+# Binary Search 
+
+
+
 arr=list(map(int, input().split()))
 array=arr.sort()
 print(arr)
